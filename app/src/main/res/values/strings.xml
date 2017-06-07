@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SOS_Rebuild</string>
+    <string name="sendingsms">Location is being updated
+                                    Please wait....</string>
+</resources>

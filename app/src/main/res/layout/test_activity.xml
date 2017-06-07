@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#62060d0f"
+                android:clickable="true"
+                android:onClick="onContact"
+                android:layout_marginTop="0dp"
+                android:showDividers="end">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Add Contacts"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView"
+                    android:textColor="#fffffcf9"
+                    android:textSize="25dp"
+                    android:textStyle="normal"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+                <View
+                    android:layout_width="300px"
+                    android:layout_height="4px"
+                    android:background="#ff0d83a2"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:background="#fffffcf9" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/msg"
+                android:alpha="0.7"
+                android:clickable="true"
+                android:onClick="onMessage"
+                android:layout_marginTop="0dp"
+                android:showDividers="end">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Add Message"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView1"
+                    android:textColor="#fffffcf9"
+                    android:textSize="25dp"
+                    android:textStyle="normal"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+                <View
+                    android:layout_width="300px"
+                    android:layout_height="4px"
+                    android:background="#ff0d83a2"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#62060d0f"
+                android:clickable="true"
+                android:onClick="onContact"
+                android:layout_marginTop="0dp"
+                android:showDividers="end">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#fffffcf9" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Add Contacts"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView10"
+                    android:textColor="#fffffcf9"
+                    android:textSize="25dp"
+                    android:textStyle="normal"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+                <View
+                    android:layout_width="300px"
+                    android:layout_height="4px"
+                    android:background="#ff0d83a2"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:background="#fffffcf9" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/msg"
+                android:alpha="0.7"
+                android:clickable="true"
+                android:onClick="onMessage"
+                android:layout_marginTop="0dp"
+                android:showDividers="end">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#fffffcf9" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Add Message"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView11"
+                    android:textColor="#fffffcf9"
+                    android:textSize="25dp"
+                    android:textStyle="normal"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+                <View
+                    android:layout_width="300px"
+                    android:layout_height="4px"
+                    android:background="#ff0d83a2"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+    </RelativeLayout>

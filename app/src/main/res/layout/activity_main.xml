@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#0083b3"
+                android:clickable="true"
+                android:onClick="onContact">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Add Contacts"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView"
+                    android:textColor="#fffffcf9"
+                    android:textSize="25dp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#fffffcf9" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                    android:background="#0083b3"
+                android:alpha="0.7"
+                android:clickable="true"
+                android:onClick="onMessage"
+                android:layout_marginTop="0dp"
+                android:showDividers="end">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Add Message"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView1"
+                    android:textColor="#fffffcf9"
+                    android:textSize="25dp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#0083b3"
+                android:clickable="true"
+                android:onClick="onInstruction"
+                android:layout_marginTop="0dp"
+                android:showDividers="end">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Instructions"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView10"
+                    android:textColor="#fffffcf9"
+                    android:textSize="25dp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#fffffcf9" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="#0083b3"
+                android:alpha="0.7"
+                android:clickable="true"
+                android:onClick="onMessage"
+                android:layout_marginTop="0dp"
+                android:showDividers="end">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#FFFFFF" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Start"
+                    android:fontFamily="sans-serif-light"
+                    android:id="@+id/textView11"
+                    android:textColor="#fffffcf9"
+                    android:textSize="25dp"
+                    android:textStyle="normal"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:onClick="onCommand" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
